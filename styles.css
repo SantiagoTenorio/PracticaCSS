@@ -11,9 +11,6 @@
     background-color: dodgerblue;
 }
 
-.footer {
-    background-color: grey;
-}
 
 .ul {
     list-style: none;
@@ -23,3 +20,23 @@
     width: 90%;
     margin: auto;
   }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: aliceblue;
+  }
+
+  .footer-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: aliceblue;
+  }
+
+  
