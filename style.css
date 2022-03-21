@@ -7,13 +7,12 @@
     text-decoration: none;
     font-size: large;
 
-    width: 100%;
+    width: 92%;
     backdrop-filter: blur(16px) saturate(131%);
     background-color: rgba(225, 225, 225, 0.4);
 }
 
 .navegacion-nav {
-    margin-right: 13rem;
     width: 40%;
     display: flex;
     justify-content: space-between;
@@ -54,10 +53,17 @@
 
 .titulo {
     color: dodgerblue;
-    font-size: 40px;
+    font-size: 60px;
     text-align: center;
 }
 
+.size {
+    font-size: 35px;
+}
+  
+p{
+    font-size: 20px;
+}
 /*Footer*/
 .footer {
     background-color: aliceblue;
